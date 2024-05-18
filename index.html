@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSITE4U - Home</title>
+    <title>WEBSITE4U</title>
+
+    <style>
+        :root {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: radial-gradient(circle, #fff 60%, #FF8000);
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            width: 100px;
+            margin-left: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>WEBSITE4U</h1>
-    <p>This is the homepage of the website.</p>
-    <p><a href="./about">Go to About page</a></p>
+    <div class="container">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+        <dotlottie-player src="https://lottie.host/afd561dd-f953-4942-a81e-60ea7e27d877/SdRLUn6G2l.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+        <img src="./W4U-logo-1a.png" alt="Website4U Logo">
+    </div>
 </body>
 </html>
